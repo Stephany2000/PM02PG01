@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02PG01.Views.ResultPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+
+            <Label Text="DATOS" FontSize="Title" Padding="159,50,30,10" />
+            
+            <Label Text="{Binding Nombre}"
+                HorizontalOptions="FillAndExpand" Margin="50,50,0,0" FontSize="15" />
+
+            <Label Text="{Binding Apellido}"
+                HorizontalOptions="FillAndExpand" Margin="50,10,0,0" FontSize="15"  />
+
+            <Label Text="{Binding Edad}"
+                HorizontalOptions="FillAndExpand" Margin="50,10,0,0" FontSize="15"  />
+
+            <Label Text="{Binding Correo}"
+                HorizontalOptions="FillAndExpand" Margin="50,10,0,0" FontSize="15"  />
+       
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
